@@ -615,11 +615,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 212401698452910788, guid: 9fc22d75b24987c48aeeab148d7205fe,
+    - target: {fileID: 114428819150466174, guid: 9fc22d75b24987c48aeeab148d7205fe,
         type: 2}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
+      propertyPath: Player1
+      value: 
+      objectReference: {fileID: 215777063}
+    - target: {fileID: 114428819150466174, guid: 9fc22d75b24987c48aeeab148d7205fe,
+        type: 2}
+      propertyPath: Player2
+      value: 
+      objectReference: {fileID: 328020139}
+    - target: {fileID: 114428819150466174, guid: 9fc22d75b24987c48aeeab148d7205fe,
+        type: 2}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 885451973}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9fc22d75b24987c48aeeab148d7205fe, type: 2}
   m_IsPrefabParent: 0

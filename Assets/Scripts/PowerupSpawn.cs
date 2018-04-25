@@ -37,7 +37,7 @@ public class PowerupSpawn : MonoBehaviour {
         if(stay == true)
         {
             staytimer += Time.deltaTime;
-            if(staytimer > 50.0f)
+            if(staytimer > 20.0f)
             {
                 this.transform.position = new Vector3(10.0f, 10.0f, this.transform.position.z);
                 stay = false;
